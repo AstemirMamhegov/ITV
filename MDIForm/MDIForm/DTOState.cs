@@ -7,15 +7,20 @@ using System.Threading.Tasks;
 
 namespace MDIForm
 {
-    [Serializable]
-    class DTOState
-    {
 
+    [Serializable]
+    public class DTOState
+    {
         public int Index { get; set; }
 
         public Point Location { get; set; }
 
         public Size Size { get; internal set; }
+
+        public DTOState()
+        {
+
+        }
 
         public DTOState(Int32 index, Point location, Size size)
         {
@@ -26,4 +31,7 @@ namespace MDIForm
         }
 
     }
+
 }
+
+

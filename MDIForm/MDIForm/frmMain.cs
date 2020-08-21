@@ -22,6 +22,7 @@ namespace MDIForm
         public FrmMain()
         {
             InitializeComponent();
+            
         }
 
 
